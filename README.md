@@ -533,7 +533,7 @@ Required files:
 ### Player Colors
 
 <table">
-  <tr><th style="background:#afafaf; border-right:#fff 1px solid;">Player</th><th style="background:#afafaf; border-right:#fff 1px solid;">Color</th><th style="background:#afafaf;">Type</th></tr>
+  <tr><th style="background: #afafaf; border-right: #fff 1px solid;">Player</th><th style="background: #afafaf; border-right: #fff 1px solid;">Color</th><th style="background: #afafaf;">Type</th></tr>
   <tr><td>1</td><td style="background: #06c;">&nbsp;</td><td>Controller</td></tr>
   <tr><td>2</td><td style="background: #c00;">&nbsp;</td><td>Controller</td></tr>
   <tr><td>3</td><td style="background: #0c6;">&nbsp;</td><td>Controller</td></tr>
