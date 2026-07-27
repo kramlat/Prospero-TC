@@ -126,29 +126,29 @@ The PS5 has a beautiful UI, but it's locked behind Sony's walled garden. Prosper
 ## Architecture
 
 ```text
-prospero-tc/
-├── src/                     # Source code
-│   ├── core/                # Core systems
-│   ├── audio/               # Audio system
-│   ├── ui/                  # UI components
-│   ├── system/              # System integration
-│   ├── modules/             # Module definitions
-│   └── utils/               # Utilities
-├── assets/                  # Assets
-│   ├── sounds/              # Sound packs
-│   │   ├── default.pack/    # Default pack
-│   │   ├── ps5.pack/        # PS5 pack (optional)
-│   │   └── custom.pack/     # Custom packs
-│   ├── fonts/               # Fonts
-│   │   └── SST/             # SST font (optional)
-│   └── themes/              # Themes
-│       ├── default.theme/   # Default theme
-│       ├── ps5.theme/       # PS5 theme (optional)
-│       └── custom.theme/    # Custom themes
-├── dist/                    # Build output
-│   └── downloads/           # Downloaded content
-├── scripts/                 # Installation scripts
-└── docs/                    # Documentation
+📁 prospero-tc/
+├── 📁 src/                     # Source code
+│   ├── 📁 core/                # Core systems
+│   ├── 📁 audio/               # Audio system
+│   ├── 📁 ui/                  # UI components
+│   ├── 📁 system/              # System integration
+│   ├── 📁 modules/             # Module definitions
+│   └── 📁 utils/               # Utilities
+├── 📁 assets/                  # Assets
+│   ├── 📁 sounds/              # Sound packs
+│   │   ├── 📁 default.pack/    # Default pack
+│   │   ├── 📁 ps5.pack/        # PS5 pack (optional)
+│   │   └── 📁 custom.pack/     # Custom packs
+│   ├── 📁 fonts/               # Fonts
+│   │   └── 📁 SST/             # SST font (optional)
+│   └── 📁 themes/              # Themes
+│       ├── 📁 default.theme/   # Default theme
+│       ├── 📁 ps5.theme/       # PS5 theme (optional)
+│       └── 📁 custom.theme/    # Custom themes
+├── 📁 dist/                    # Build output
+│   └── 📁 downloads/           # Downloaded content
+├── 📁 scripts/                 # Installation scripts
+└── 📁 docs/                    # Documentation
 ```
 
 ## Installation
@@ -270,33 +270,33 @@ Required files:
 ### Theme Structure
 
 ```text
-default.theme/
-├── manifest.json           # Theme metadata
-├── theme.css               # Theme styles
-├── theme.js                # Theme behavior
-├── pack.tar.zst            # Optional sound pack payload
-├── icons/                  # Themed icons
-│   ├── controller/         # Controller icons
-│   │   ├── ds3/            # PlayStation 3 controller icons
-│   │   ├── ds4/            # PlayStation 4 controller icons
-│   │   ├── dualsense/      # PlayStation 5 controller icons
-│   │   ├── generic/        # Generic gamepad icons
-│   │   ├── switch/         # Switch controller icons
-│   │   └── xinput/         # XInput controller icons
-│   ├── modules/            # Module icons
-│   ├── platform/           # Platform icons
-│   └── settings/           # Settings icons
-├── ui/                     # Theme artwork
-│   ├── backgrounds/        # Background artwork
-│   ├── buttons/            # Control artwork
-│   └── overlays/           # Card artwork
-└── wallpapers/             # Selectable wallpapers
-    ├── 4k/                 # 2160p wallpapers
-    ├── 1440p/              # 1440p wallpapers
-    ├── 1200p/              # 1200p wallpapers
-    ├── 1080p/              # 1080p wallpapers
-    ├── 800p/               # Steam Deck resolution wallpapers
-    └── 720p/               # 720p wallpapers
+🎨 default.theme/
+├── 📄 manifest.json           # Theme metadata
+├── 📄 theme.css               # Theme styles
+├── 📄 theme.js                # Theme behavior
+├── 📦 pack.tar.zst            # Optional sound pack payload
+├── 📁 icons/                  # Themed icons
+│   ├── 📁 controller/         # Controller icons
+│   │   ├── 📁 ds3/            # PlayStation 3 controller icons
+│   │   ├── 📁 ds4/            # PlayStation 4 controller icons
+│   │   ├── 📁 dualsense/      # PlayStation 5 controller icons
+│   │   ├── 📁 generic/        # Generic gamepad icons
+│   │   ├── 📁 switch/         # Switch controller icons
+│   │   └── 📁 xinput/         # XInput controller icons
+│   ├── 📁 modules/            # Module icons
+│   ├── 📁 platform/           # Platform icons
+│   └── 📁 settings/           # Settings icons
+├── 📁 ui/                     # Theme artwork
+│   ├── 📁 backgrounds/        # Background artwork
+│   ├── 📁 buttons/            # Control artwork
+│   └── 📁 overlays/           # Card artwork
+└── 📁 wallpapers/             # Selectable wallpapers
+    ├── 📁 4k/                 # 2160p wallpapers
+    ├── 📁 1440p/              # 1440p wallpapers
+    ├── 📁 1200p/              # 1200p wallpapers
+    ├── 📁 1080p/              # 1080p wallpapers
+    ├── 📁 800p/               # Steam Deck resolution wallpapers
+    └── 📁 720p/               # 720p wallpapers
 ```
 
 ### Creating a Theme
@@ -313,14 +313,14 @@ default.theme/
 ### Pack Structure
 
 ```text
-default.pack/
-├── manifest.json        # Pack metadata
-├── boot.ogg             # Boot sound
-├── ptc_navigation.ogg   # UI navigation
-├── ptc_select.ogg       # UI selection
-├── ptc_launch.ogg       # Game launch
-├── ptc_ambiance.ogg     # Ambiance track
-└── ptc_*.ogg            # Other sounds
+🔊 default.pack/
+├── 📄 manifest.json        # Pack metadata
+├── 🔊 boot.ogg             # Boot sound
+├── 🔊 ptc_navigation.ogg   # UI navigation
+├── 🔊 ptc_select.ogg       # UI selection
+├── 🔊 ptc_launch.ogg       # Game launch
+├── 🔊 ptc_ambiance.ogg     # Ambiance track
+└── 🔊 ptc_*.ogg            # Other sounds
 ```
 
 ## Creating a Sound Pack
