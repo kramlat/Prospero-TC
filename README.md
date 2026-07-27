@@ -238,11 +238,14 @@ The PS5 has a beautiful UI, but it's locked behind Sony's walled garden. Prosper
 ### Quick Install
 
 <div style="border: 1px solid #7f7f7f; color: #afafaf; background: #000;">
-    # Clone the repository<br>
-    git clone https://github.com/yourusername/prospero-tc.git<br>
-    cd prospero-tc<br>
-    # Run the installer<br>
+    
+    # Clone the repository
+    git clone https://github.com/yourusername/prospero-tc.git
+    cd prospero-tc
+    
+    # Run the installer
     ./scripts/install.sh
+    
 </div>
 
 ### Manual Installation
@@ -284,7 +287,7 @@ Place SST font files in:
 <div style="background: #afafaf;">
     /home/deck/prospero-tc/assets/fonts/SST/
 </div>
-
+<br>
 Required files:
 
 - <b>🗋 SST-Regular.ttf </b>
@@ -298,7 +301,7 @@ Place PS5 sound files in:
 <div style="background: #afafaf;">
     /home/deck/prospero-tc/assets/sounds/ps5.pack/
 </div>
-
+<br>
 Required files:
 
 - <b>🗋 boot.ogg (PS5 startup chime) </b>
@@ -307,7 +310,7 @@ Required files:
 - <b>🗋 ptc_ambiance.ogg </b>
 - <b>🗋 ptc_*.ogg </b>
 
-See [🗋 AUDIO.md](docs/AUDIO.md) for full details.
+> See [🗋 AUDIO.md](docs/AUDIO.md) for full details.
 
 ## Modules
 
@@ -530,27 +533,16 @@ See [🗋 AUDIO.md](docs/AUDIO.md) for full details.
 ### Player Colors
 
 <table">
-  <tr>
-    <th style="background:#afafaf; border-right:#fff 1px solid;">Player</th><th style="background:#afafaf; border-right:#fff 1px solid;">Color</th><th style="background:#afafaf;">Type</th>
-  </tr><tr>
-    <td>1</td><td style="background:#06c;">&nbsp;</td><td>Controller</td>
-  </tr><tr>
-    <td>2</td><td style="background:#c00;">&nbsp;</td><td>Controller</td>
-  </tr><tr>
-    <td>3</td><td style="background:#0c6;">&nbsp;</td><td>Controller</td>
-  </tr><tr>
-    <td>4</td><td style="background:#c6c;">&nbsp;</td><td>Controller</td>
-  </tr><tr>
-    <td>5</td><td style="background:#fc0;">&nbsp;</td><td>Accessory</td>
-  </tr><tr>
-    <td>6</td><td style="background:#f60;">&nbsp;</td><td>Accessory</td>
-  </tr><tr>
-    <td>7</td><td style="background:#f0f;">&nbsp;</td><td>Accessory</td>
-  </tr><tr>
-    <td>8</td><td style="background:#0ff;">&nbsp;</td><td>Accessory</td>
-  </tr><tr>
-    <td>Unassigned</td><td style="background:#eee;">&nbsp;</td><td>Waiting</td>
-  </tr>
+  <tr><th style="background:#afafaf; border-right:#fff 1px solid;">Player</th><th style="background:#afafaf; border-right:#fff 1px solid;">Color</th><th style="background:#afafaf;">Type</th></tr>
+  <tr><td>1</td><td style="background:#06c;">&nbsp;</td><td>Controller</td></tr>
+  <tr><td>2</td><td style="background:#c00;">&nbsp;</td><td>Controller</td></tr>
+  <tr><td>3</td><td style="background:#0c6;">&nbsp;</td><td>Controller</td></tr>
+  <tr><td>4</td><td style="background:#c6c;">&nbsp;</td><td>Controller</td></tr>
+  <tr><td>5</td><td style="background:#fc0;">&nbsp;</td><td>Accessory</td></tr>
+  <tr><td>6</td><td style="background:#f60;">&nbsp;</td><td>Accessory</td></tr>
+  <tr><td>7</td><td style="background:#f0f;">&nbsp;</td><td>Accessory</td></tr>
+  <tr><td>8</td><td style="background:#0ff;">&nbsp;</td><td>Accessory</td></tr>
+  <tr><td>Unassigned</td><td style="background:#eee;">&nbsp;</td><td>Waiting</td></tr>
 </table>
 
 ## PIN Lock Screen
@@ -700,17 +692,18 @@ We welcome contributions! See [CONTRIBUTING.md](doc/CONTRIBUTING.md) for guideli
 ## Development Setup
 
 <div style="border: 1px solid #7f7f7f; color: #afafaf; background: #000;">
-    # Clone the repository<br>
-    git clone https://github.com/yourusername/prospero-tc.git<br>
-    cd prospero-tc<br>
-    <br>
+    
+    # Clone the repository
+    git clone https://github.com/yourusername/prospero-tc.git
+    cd prospero-tc
+    
     # Install dependencies<br>
     npm install<br>
     
-    # Build the project<br>
-    npm run build<br>
-    <br>
-    # Run in development mode<br>
+    # Build the project
+    npm run build
+    
+    # Run in development mode
     npm run dev
 </div>
 
