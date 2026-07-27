@@ -709,9 +709,9 @@ We welcome contributions! See [CONTRIBUTING.md](doc/CONTRIBUTING.md) for guideli
 
 ## Support
 
-+ GitHub Issues: [here](https://github.com/yourusername/prospero-tc/issues)
++ GitHub Issues: [here](https://github.com/kramlat/Prospero-TC/issues)
 + Discord: [Join our Discord](changeme)
-+ Wiki: [Documentation](changeme)
++ Wiki: [Documentation](https://github.com/kramlat/Prospero-TC/wiki)
 
 Made with ❤️ by the Prospero TC Community
 
