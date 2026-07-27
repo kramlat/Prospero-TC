@@ -320,13 +320,19 @@ Common wallpaper resolutions to support include 720p, 768p, 800p, 900p, 1080p, 1
 
 ```text
 🔊 default.pack/
-├── 📄 manifest.json        # Pack metadata
-├── 🔊 boot.ogg             # Boot sound
-├── 🔊 ptc_navigation.ogg   # UI navigation
-├── 🔊 ptc_select.ogg       # UI selection
-├── 🔊 ptc_launch.ogg       # Game launch
-├── 🔊 ptc_ambiance.ogg     # Ambiance track
-└── 🔊 ptc_*.ogg            # Other sounds
+├── 📄 manifest.json              # Pack metadata
+├── 🔊 boot.ogg                   # Boot sound
+├── 🔊 ptc_dashboard_startup.ogg  # Dashboard appears on startup
+├── 🔊 ptc_keyboard_typing.ogg    # Keyboard typing sound
+├── 🔊 ptc_keyboard_backspace.ogg # Keyboard backspace sound
+├── 🔊 ptc_keyboard_enter.ogg     # Keyboard enter sound
+├── 🔊 ptc_keyboard_select.ogg    # On-screen keyboard selection sound
+├── 🔊 ptc_notify.ogg             # Notification toast sound
+├── 🔊 ptc_navigation.ogg         # UI navigation
+├── 🔊 ptc_select.ogg             # UI selection
+├── 🔊 ptc_launch.ogg             # Game launch
+├── 🔊 ptc_ambiance.ogg           # Ambiance track
+└── 🔊 ptc_*.ogg                  # Other sounds
 ```
 
 ## Creating a Sound Pack
