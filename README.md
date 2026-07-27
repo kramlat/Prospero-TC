@@ -353,7 +353,7 @@ Common wallpaper resolutions to support include 720p, 768p, 800p, 900p, 1080p, 1
 1. Add a `manifest.json` to describe the pack metadata
 2. Add your `.ogg` files for the sound experience
    * `ptc_ambiance.ogg` is meant to be a looping audio file. set the loop point for it in manifest.json.
-   * __A note: default.pack has a royalty free EDM ambiance track based off of the steam deck boot sample for those that dont have a PS5. It is not a bad alternative to the actual PS5 sounds.
+   * __A note__: default.pack has a royalty free EDM ambiance track based off of the steam deck boot sample for those that dont have a PS5. It is not a bad alternative to the actual PS5 sounds.
 3. Switch to your pack
 
 > __Note__: the metadata structure for packs will continue to evolve as the format is refined and documented in greater detail.
