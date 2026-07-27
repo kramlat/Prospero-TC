@@ -127,28 +127,30 @@ The PS5 has a beautiful UI, but it's locked behind Sony's walled garden. Prosper
 
 ```text
 📁 prospero-tc/
-├── 📁 src/                     # Source code
-│   ├── 📁 core/                # Core systems
-│   ├── 📁 audio/               # Audio system
-│   ├── 📁 ui/                  # UI components
-│   ├── 📁 system/              # System integration
-│   ├── 📁 modules/             # Module definitions
-│   └── 📁 utils/               # Utilities
-├── 📁 assets/                  # Assets
-│   ├── 📁 sounds/              # Sound packs
-│   │   ├── 📁 default/ → 📁 default.pack/   # Default pack symlink
-│   │   ├── 📁 ps5.pack/        # PS5 pack (optional)
-│   │   └── 📁 custom.pack/     # Custom packs
-│   ├── 📁 fonts/               # Fonts
-│   │   └── 📁 SST/             # SST font (optional)
-│   └── 📁 themes/              # Themes
-│       ├── 📁 default/ → 📁 default.theme/ # Default theme symlink
-│       ├── 📁 ps5.theme/       # PS5 theme (optional)
-│       └── 📁 custom.theme/    # Custom themes
-├── 📁 dist/                    # Build output
-│   └── 📁 downloads/           # Downloaded content
-├── 📁 scripts/                 # Installation scripts
-└── 📁 docs/                    # Documentation
+├── 📁 src/                                  # Source code
+│   ├── 📁 core/                             # Core systems
+│   ├── 📁 audio/                            # Audio system
+│   ├── 📁 ui/                               # UI components
+│   ├── 📁 system/                           # System integration
+│   ├── 📁 modules/                          # Module definitions
+│   └── 📁 utils/                            # Utilities
+├── 📁 assets/                               # Assets
+│   ├── 📁 sounds/                           # Sound packs
+│   │   ├── 📁 default/ → 📁 default.pack/   # Selected pack symlink
+│   │   ├── 📁 default.pack/                 # Default pack
+│   │   ├── 📁 ps5.pack/                     # PS5 pack (optional)
+│   │   └── 📁 custom.pack/                  # Custom packs
+│   ├── 📁 fonts/                            # Fonts
+│   │   └── 📁 SST/                          # SST font (optional)
+│   └── 📁 themes/                           # Themes
+│       ├── 📁 default/ → 📁 default.theme/  # Selected theme symlink
+│       ├── 📁 default.theme/                # Default theme
+│       ├── 📁 ps5.theme/                    # PS5 theme (optional)
+│       └── 📁 custom.theme/                 # Custom themes
+├── 📁 dist/                                 # Build output
+│   └── 📁 downloads/                        # Downloaded content
+├── 📁 scripts/                              # Installation scripts
+└── 📁 docs/                                 # Documentation
 ```
 
 ## Installation
