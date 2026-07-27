@@ -136,13 +136,13 @@ The PS5 has a beautiful UI, but it's locked behind Sony's walled garden. Prosper
 │   └── 📁 utils/               # Utilities
 ├── 📁 assets/                  # Assets
 │   ├── 📁 sounds/              # Sound packs
-│   │   ├── 📁 default.pack/    # Default pack
+│   │   ├── 📁 default/ → 📁 default.pack/   # Default pack symlink
 │   │   ├── 📁 ps5.pack/        # PS5 pack (optional)
 │   │   └── 📁 custom.pack/     # Custom packs
 │   ├── 📁 fonts/               # Fonts
 │   │   └── 📁 SST/             # SST font (optional)
 │   └── 📁 themes/              # Themes
-│       ├── 📁 default.theme/   # Default theme
+│       ├── 📁 default/ → 📁 default.theme/ # Default theme symlink
 │       ├── 📁 ps5.theme/       # PS5 theme (optional)
 │       └── 📁 custom.theme/    # Custom themes
 ├── 📁 dist/                    # Build output
