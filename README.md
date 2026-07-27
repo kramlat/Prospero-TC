@@ -318,6 +318,8 @@ Common wallpaper resolutions to support include 720p, 768p, 800p, 900p, 1080p, 1
 
 ### Pack Structure
 
+> The keyboard pack includes four core sounds to mirror the four primary interactions in Sony's own on-screen keyboard: typing, backspace, enter, and selection.
+
 ```text
 🔊 default.pack/
 ├── 📄 manifest.json              # Pack metadata
