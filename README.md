@@ -125,108 +125,31 @@ The PS5 has a beautiful UI, but it's locked behind Sony's walled garden. Prosper
 
 ## Architecture
 
-<table style="background: #aaa; border-spacing 0px; align: left;">
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-top: 1px solid #000; border-left: 1px solid #000; padding: 0px; border-spacing 0px;"><b>🗀 prospero-tc</b> </td>
-    <td style="border-top: 1px solid #000; border-right: 1px solid #000; padding: 0px; border-spacing 0px;"></td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗀 src</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Source code </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 core</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Core systems </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 audio</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Audio system </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 ui</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> UI components </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 system</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> System integration </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-   <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 modules</b> </td>
-   <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Module definitions </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-   <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <b>🗀 utils</b> </td>
-   <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Utilities </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗀 assets</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Assets </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 sounds</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Sound packs </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 <i>default</b></i> <font color="#007f00">→</font> <b>🗀 default.pack</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"></td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──  <b>🗀 default.pack</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Default pack </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 ps5.pack</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> PS5 pack (optional) </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <b>🗀 custom.pack</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Custom packs </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 fonts</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Fonts </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <b>🗀 SST</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> SST font (optional) </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──  <b>🗀 themes</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Themes </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 <i>default</b></i> <font color="#007f00">→</font> <b>🗀 default.theme</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"></td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 default.theme</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Default theme </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 ps5.theme</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> PS5 theme (optional) </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <b>🗀 custom.theme</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Custom themes </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗀 dist</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Build output </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <b>🗀 downloads</b>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Downloaded content </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗀 scripts</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Installation scripts </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; border-bottom: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;└── <b>🗀 docs</b> </td>
-    <td style="border-right: 1px solid #000; border-bottom: 1px solid #000; padding: 0px; border-spacing 0px;"> Documentation </td>
-  </tr>
-</table>
+```text
+prospero-tc/
+├── src/                     # Source code
+│   ├── core/                # Core systems
+│   ├── audio/               # Audio system
+│   ├── ui/                  # UI components
+│   ├── system/              # System integration
+│   ├── modules/             # Module definitions
+│   └── utils/               # Utilities
+├── assets/                  # Assets
+│   ├── sounds/              # Sound packs
+│   │   ├── default.pack/    # Default pack
+│   │   ├── ps5.pack/        # PS5 pack (optional)
+│   │   └── custom.pack/     # Custom packs
+│   ├── fonts/               # Fonts
+│   │   └── SST/             # SST font (optional)
+│   └── themes/              # Themes
+│       ├── default.theme/   # Default theme
+│       ├── ps5.theme/       # PS5 theme (optional)
+│       └── custom.theme/    # Custom themes
+├── dist/                    # Build output
+│   └── downloads/           # Downloaded content
+├── scripts/                 # Installation scripts
+└── docs/                    # Documentation
+```
 
 ## Installation
 
@@ -237,16 +160,14 @@ The PS5 has a beautiful UI, but it's locked behind Sony's walled garden. Prosper
 
 ### Quick Install
 
-<div style="border: 1px solid #7f7f7f; color: #afafaf; background: #000;">
-    
-    # Clone the repository
-    git clone https://github.com/yourusername/prospero-tc.git
-    cd prospero-tc
-    
-    # Run the installer
-    ./scripts/install.sh
-    
-</div>
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/prospero-tc.git
+cd prospero-tc
+
+# Run the installer
+./scripts/install.sh
+```
 
 ### Manual Installation
 
