@@ -293,13 +293,17 @@ Required files:
 │   ├── 📁 buttons/            # Control artwork
 │   └── 📁 overlays/           # Card artwork
 └── 📁 wallpapers/             # Selectable wallpapers
-    ├── 📁 4k/                 # 2160p wallpapers
-    ├── 📁 1440p/              # 1440p wallpapers
-    ├── 📁 1200p/              # 1200p wallpapers
-    ├── 📁 1080p/              # 1080p wallpapers
-    ├── 📁 800p/               # Steam Deck resolution wallpapers
-    └── 📁 720p/               # 720p wallpapers
+    ├── 📁 4k/                 # 3840x2160 wallpapers (16:9)
+    ├── 📁 1440p/              # 2560x1440 wallpapers (16:9)
+    ├── 📁 1200p/              # 1920x1200 wallpapers (8:5, used by DeckHD)
+    ├── 📁 1080p/              # 1920x1080 wallpapers (16:9)
+    ├── 📁 900p/               # 1600x900 wallpapers (16:9)
+    ├── 📁 800p/               # 1280x800 wallpapers (8:5, Steam Deck)
+    ├── 📁 768p/               # 1280x768 wallpapers (5:3, seen on some laptops and TV panels)
+    └── 📁 720p/               # 1280x720 wallpapers (16:9)
 ```
+
+Common wallpaper resolutions to support include 720p, 768p, 800p, 900p, 1080p, 1200p, 1440p, and 4K, which covers most handheld and desktop targets.
 
 ### Creating a Theme
 
