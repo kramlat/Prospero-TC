@@ -320,7 +320,7 @@ Common wallpaper resolutions to support include 720p, 768p, 800p, 900p, 1080p, 1
 
 ### Pack Structure
 
-> The keyboard pack includes four core sounds to mirror the four primary interactions in Sony's own on-screen keyboard: typing, backspace, enter, and selection.
+> The keyboard pack includes seven core sounds to mirror the seven primary interactions in Sony's own on-screen keyboard: typing, backspace, enter, and selection.
 
 ```text
 🔊 default.pack/
@@ -329,13 +329,20 @@ Common wallpaper resolutions to support include 720p, 768p, 800p, 900p, 1080p, 1
 ├── 🔊 ptc_dashboard_startup.ogg  # Dashboard appears on startup
 ├── 🔊 ptc_keyboard_typing.ogg    # Keyboard typing sound
 ├── 🔊 ptc_keyboard_backspace.ogg # Keyboard backspace sound
-├── 🔊 ptc_keyboard_enter.ogg     # Keyboard enter sound
+├── 🔊 ptc_keyboard_spacebar.ogg  # Keyboard spacebar sound
+├── 🔊 ptc_keyboard_shift.ogg     # Keyboard shift key sound
 ├── 🔊 ptc_keyboard_select.ogg    # On-screen keyboard selection sound
+├── 🔊 ptc_keyboard_open.ogg      # On-screen keyboard show sound
+├── 🔊 ptc_keyboard_close.ogg     # On-screen keyboard hide sound
 ├── 🔊 ptc_notify.ogg             # Notification toast sound
 ├── 🔊 ptc_navigation.ogg         # UI navigation
 ├── 🔊 ptc_select.ogg             # UI selection
 ├── 🔊 ptc_launch.ogg             # Game launch
 ├── 🔊 ptc_ambiance.ogg           # Ambiance track
+├── 🔊 ptc_trophy1.ogg            # Bronze Trophy toast sound
+├── 🔊 ptc_trophy2.ogg            # Silver Trophy toast sound
+├── 🔊 ptc_trophy3.ogg            # Gold Trophy toast sound
+├── 🔊 ptc_trophy4.ogg            # Platinum Trophy toast sound
 └── 🔊 ptc_*.ogg                  # Other sounds
 ```
 
