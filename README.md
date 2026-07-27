@@ -414,10 +414,10 @@ B/Circle = Clear (Backspace)
 | TL     | N/A           | ▢            | ▢            | N/A      | N/A    |
 | TR     | N/A           | N/A           | N/A           | N/A      | N/A    |
 | screen | N/A           | N/A           | N/A           | screen   | N/A    |
-| A      | ✕             | ✕             | ✕             | B        | A      |
-| B      | ○             | ○             | ○             | A        | B      |
-| X      | □             | □             | □             | Y        | X      |
-| Y      | △            | △            | △            | X        | Y      |
+| A      | <span style="color: #e60012;">✕</span> | <span style="color: #e60012;">✕</span> | <span style="color: #e60012;">✕</span> | B        | A      |
+| B      | <span style="color: #00a651;">○</span> | <span style="color: #00a651;">○</span> | <span style="color: #00a651;">○</span> | A        | B      |
+| X      | <span style="color: #0051ba;">□</span> | <span style="color: #0051ba;">□</span> | <span style="color: #0051ba;">□</span> | Y        | X      |
+| Y      | <span style="color: #7b2cbf;">△</span> | <span style="color: #7b2cbf;">△</span> | <span style="color: #7b2cbf;">△</span> | X        | Y      |
 
 ## Recovery Mode
 
