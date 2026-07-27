@@ -2,7 +2,7 @@
 
 ## Total Conversion: Steam Deck → PS5 Experience
 
-__Prospero TC__ is a complete Steam Deck transformation project that brings the PlayStation 5 interface, audio, and user experience to Valve's handheld. It's not just a theme—it's a total conversion that replaces the UI, adds PS5-inspired audio, and creates a seamless, immersive experience. When complete, it aims to deliver the PS5 dashboard feel while allowing end users to provide their own assets, with a royalty-free alternative theme available for those without a PS5 or a legal way to unpack PS5UPDATE.PUP.
+__Prospero TC__ is a complete Steam Deck transformation project that brings the PlayStation 5 interface, audio, and user experience to Valve's handheld. It's not just a theme—it's a total conversion that replaces the UI, adds PS5-inspired audio, and creates a seamless, immersive experience. The project exists because CSSLoader-based approaches can be fragile and break over time, so Prospero TC aims for deeper UI integration that is more stable and more immersive. When complete, it aims to deliver the PS5 dashboard feel while allowing end users to provide their own assets, with a royalty-free alternative theme available for those without a PS5 or a legal way to unpack PS5UPDATE.PUP.
 
 ## 📋 Table of Contents
 
