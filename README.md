@@ -304,11 +304,11 @@ Required files:
 ### Creating a Theme
 
 1. Copy an existing theme
-2. Edit `manifest.json`
-3. Replace assets
+2. Edit `manifest.json` to define its metadata and behavior
+3. Replace assets such as icons, UI artwork, and wallpapers
 4. Switch to your theme
 
-> __Note__: a theme may have a sound pack payload that it can install called `pack.tar.zst`, but that is optional.
+> __Note__: a theme may include a sound pack payload called `pack.tar.zst`, which is optional. As the project develops, the metadata format and its documentation will become more detailed and expressive.
 
 ## Sound Packs
 
@@ -329,9 +329,11 @@ Required files:
 
 ### Create a .pack directory
 
-1. Add a manifest.json
-2. Add your .ogg files
+1. Add a `manifest.json` to describe the pack metadata
+2. Add your `.ogg` files for the sound experience
 3. Switch to your pack
+
+> __Note__: the metadata structure for packs will continue to evolve as the format is refined and documented in greater detail.
 
 ## Controller Support
 
