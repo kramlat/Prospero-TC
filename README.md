@@ -534,15 +534,15 @@ Required files:
 
 <table">
   <tr><th style="background:#afafaf; border-right:#fff 1px solid;">Player</th><th style="background:#afafaf; border-right:#fff 1px solid;">Color</th><th style="background:#afafaf;">Type</th></tr>
-  <tr><td>1</td><td style="background:#06c;">&nbsp;</td><td>Controller</td></tr>
-  <tr><td>2</td><td style="background:#c00;">&nbsp;</td><td>Controller</td></tr>
-  <tr><td>3</td><td style="background:#0c6;">&nbsp;</td><td>Controller</td></tr>
-  <tr><td>4</td><td style="background:#c6c;">&nbsp;</td><td>Controller</td></tr>
-  <tr><td>5</td><td style="background:#fc0;">&nbsp;</td><td>Accessory</td></tr>
-  <tr><td>6</td><td style="background:#f60;">&nbsp;</td><td>Accessory</td></tr>
-  <tr><td>7</td><td style="background:#f0f;">&nbsp;</td><td>Accessory</td></tr>
-  <tr><td>8</td><td style="background:#0ff;">&nbsp;</td><td>Accessory</td></tr>
-  <tr><td>Unassigned</td><td style="background:#eee;">&nbsp;</td><td>Waiting</td></tr>
+  <tr><td>1</td><td style="background: #06c;">&nbsp;</td><td>Controller</td></tr>
+  <tr><td>2</td><td style="background: #c00;">&nbsp;</td><td>Controller</td></tr>
+  <tr><td>3</td><td style="background: #0c6;">&nbsp;</td><td>Controller</td></tr>
+  <tr><td>4</td><td style="background: #c6c;">&nbsp;</td><td>Controller</td></tr>
+  <tr><td>5</td><td style="background: #fc0;">&nbsp;</td><td>Accessory</td></tr>
+  <tr><td>6</td><td style="background: #f60;">&nbsp;</td><td>Accessory</td></tr>
+  <tr><td>7</td><td style="background: #f0f;">&nbsp;</td><td>Accessory</td></tr>
+  <tr><td>8</td><td style="background: #0ff;">&nbsp;</td><td>Accessory</td></tr>
+  <tr><td>Unassigned</td><td style="background: #eee;">&nbsp;</td><td>Waiting</td></tr>
 </table>
 
 ## PIN Lock Screen
