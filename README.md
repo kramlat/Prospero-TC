@@ -28,6 +28,8 @@ Prospero TC transforms the Steam Deck into a device that feels, sounds, and beha
 
 __Key Philosophy:__ We bring the PS5 experience to Steam Deck without pretending to be Sony. This is a fan-made conversion that respects the original design while making it accessible on an open platform.
 
+> Planned direction: later, the Steam Chat may be turned into a toastable card once the dashboard command center is set up, since that format is expected to be more useful and more in line with the PS5-style experience.
+
 ## Features
 
 ### 🎨 UI Overhaul
