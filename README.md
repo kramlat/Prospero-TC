@@ -172,13 +172,13 @@ cd prospero-tc
 ### Manual Installation
 
 1. Download __Prospero TC__ from the releases page
-2. Extract to <span style="background: #afafaf;">/home/deck/homebrew/plugins/prospero-tc/</span>
-3. Run <span style="background: #afafaf;">./scripts/install.sh</span>
+2. Extract it to `/home/deck/homebrew/plugins/prospero-tc/`
+3. Run `./scripts/install.sh`
 4. Restart Decky Loader
 
 ### Post-Installation
 
-1. Press the <span style="background: #afafaf;">...</span> button and open Decky Loader
+1. Press the `...` button and open Decky Loader
 2. Find Prospero TC in the plugin list
 3. Enable the plugin
 4. Enjoy your PS5-inspired experience!
@@ -187,51 +187,51 @@ cd prospero-tc
 
 ### Theme Switching
 
-<div style="border: 1px solid #7f7f7f; color: #afafaf; background: #000;">
-    # Switch to a different theme<br>
-    cd /home/deck/prospero-tc/assets/themes/<br>
-    ln -sf ps5.theme default
-</div>
+```bash
+# Switch to a different theme
+cd /home/deck/prospero-tc/assets/themes/
+ln -sf ps5.theme default
+```
 
 ### Sound Pack Switching
 
-<div style="border: 1px solid #7f7f7f; color: #afafaf; background: #000;">
-    # Switch to a different sound pack<br>
-    cd /home/deck/prospero-tc/assets/sounds/<br>
-    ln -sf ps5.pack default
-</div>
+```bash
+# Switch to a different sound pack
+cd /home/deck/prospero-tc/assets/sounds/
+ln -sf ps5.pack default
+```
 
 ### Font Installation
 
 Place SST font files in:
 
-<div style="background: #afafaf;">
-    /home/deck/prospero-tc/assets/fonts/SST/
-</div>
-<br>
+```text
+/home/deck/prospero-tc/assets/fonts/SST/
+```
+
 Required files:
 
-- <b>🗋 SST-Regular.ttf </b>
-- <b>🗋 SST-Bold.ttf </b>
-- <b>🗋 SST-Light.ttf </b>
+- `SST-Regular.ttf`
+- `SST-Bold.ttf`
+- `SST-Light.ttf`
 
 ### PS5 Audio Pack
 
 Place PS5 sound files in:
 
-<div style="background: #afafaf;">
-    /home/deck/prospero-tc/assets/sounds/ps5.pack/
-</div>
-<br>
+```text
+/home/deck/prospero-tc/assets/sounds/ps5.pack/
+```
+
 Required files:
 
-- <b>🗋 boot.ogg (PS5 startup chime) </b>
-- <b>🗋 ptc_navigation.ogg </b>
-- <b>🗋 ptc_select.ogg </b>
-- <b>🗋 ptc_ambiance.ogg </b>
-- <b>🗋 ptc_*.ogg </b>
+- `boot.ogg` (PS5 startup chime)
+- `ptc_navigation.ogg`
+- `ptc_select.ogg`
+- `ptc_ambiance.ogg`
+- `ptc_*.ogg`
 
-> See [🗋 AUDIO.md](docs/AUDIO.md) for full details.
+> See [AUDIO.md](docs/AUDIO.md) for full details.
 
 ## Modules
 
@@ -247,184 +247,81 @@ Required files:
 
 ### Module Installation
 
-<div style="border: 1px solid #7f7f7f; color: #afafaf; background: #000;">
-    # Install a module
-    /home/deck/prospero-tc/bin/prospero module install heroic-loader
-</div>
+```bash
+# Install a module
+/home/deck/prospero-tc/bin/prospero module install heroic-loader
+```
 
 ### Enable/disable a module
-<div style="border: 1px solid #7f7f7f; color: #afafaf; background: #000;">
-    /home/deck/prospero-tc/bin/prospero module enable heroic-loader<br>
-    /home/deck/prospero-tc/bin/prospero module disable heroic-loader
-</div>
+
+```bash
+/home/deck/prospero-tc/bin/prospero module enable heroic-loader
+/home/deck/prospero-tc/bin/prospero module disable heroic-loader
+```
 
 ### List installed modules
-<div style="border: 1px solid #7f7f7f; color: #afafaf; background: #000;">
+
+```bash
 /home/deck/prospero-tc/bin/prospero module list
-</div>
+```
 
 ## Themes
 
 ### Theme Structure
 
-<table style="background: #aaa; border-spacing 0px; align: left;">
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-top: 1px solid #000; border-left: 1px solid #000; padding: 0px; border-spacing 0px;"><b>🗀 default.theme</b></td>
-    <td style="border-top: 1px solid #000; border-right: 1px solid #000; padding: 0px; border-spacing 0px;"></td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 manifest.json</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Theme metadata </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 theme.css</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Theme styles </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 theme.js</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Theme behavior </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 pack.tar.zst</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Optional sound pack that goes with the theme </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗀 icons</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Themed icons </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 controller</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Controller icons </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 ds3</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Playstation 3 controller icons </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-<td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 ds4</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Playstation 4 controller icons </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 dualsense</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Playstation 5 controller icons </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 generic</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Generic gamepad icons </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 switch</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Switch Pro Controller and JoyCon icons (Switch 2 included) </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <b>🗀 xinput</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> XInput controller (usually XBox, but always compatible) icons </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 modules</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Module icons (fallback to icons within module's package if they dont exist here) </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 platform</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Platform icons (system ui icons) </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <b>🗀 settings</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Settings icons (used in settings menu) </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗀 ui</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Theme artwork </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 backgrounds</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Style artwork used for drawing the background </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 buttons</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Style artwork used for drawing controls, butons, switches, and sliders </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <b>🗀 overlays</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Style artwork used for cards </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;└── <b>🗀 wallpapers</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Each resolution has pre-setup selectable wallpapers usable by theme </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 4k</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> The wallpapers at 4k (2160p) size, 16:9 </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 1440p</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> The wallpapers at 2k (1440p) size, 16:9 </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 1200p</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> The wallpapers at DeckHD (1200p) size, 8:5 </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 1080p</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> The wallpapers at FHD (1080p) size, 16:9 </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <b>🗀 800p</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> The wallpapers at Steam Deck factory resolution (800p), 8:5 </td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; border-bottom: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <b>🗀 720p</b> </td>
-    <td style="border-right: 1px solid #000; border-bottom: 1px solid #000; padding: 0px; border-spacing 0px;"> The wallpapers at HD (720p) size, 16:9 </td>
-  </tr>
-</table>
+```text
+default.theme/
+├── manifest.json           # Theme metadata
+├── theme.css               # Theme styles
+├── theme.js                # Theme behavior
+├── pack.tar.zst            # Optional sound pack payload
+├── icons/                  # Themed icons
+│   ├── controller/         # Controller icons
+│   │   ├── ds3/            # PlayStation 3 controller icons
+│   │   ├── ds4/            # PlayStation 4 controller icons
+│   │   ├── dualsense/      # PlayStation 5 controller icons
+│   │   ├── generic/        # Generic gamepad icons
+│   │   ├── switch/         # Switch controller icons
+│   │   └── xinput/         # XInput controller icons
+│   ├── modules/            # Module icons
+│   ├── platform/           # Platform icons
+│   └── settings/           # Settings icons
+├── ui/                     # Theme artwork
+│   ├── backgrounds/        # Background artwork
+│   ├── buttons/            # Control artwork
+│   └── overlays/           # Card artwork
+└── wallpapers/             # Selectable wallpapers
+    ├── 4k/                 # 2160p wallpapers
+    ├── 1440p/              # 1440p wallpapers
+    ├── 1200p/              # 1200p wallpapers
+    ├── 1080p/              # 1080p wallpapers
+    ├── 800p/               # Steam Deck resolution wallpapers
+    └── 720p/               # 720p wallpapers
+```
 
 ### Creating a Theme
 
 1. Copy an existing theme
-2. Edit <span style="background: #afafaf;">manifest.json</span>
+2. Edit `manifest.json`
 3. Replace assets
 4. Switch to your theme
 
-> __Note__: a theme may have a sound pack payload that it can install called <span style="background: #afafaf;">pack.tar.zst</span>, but that is optional.
+> __Note__: a theme may have a sound pack payload that it can install called `pack.tar.zst`, but that is optional.
 
 ## Sound Packs
 
 ### Pack Structure
 
-<table style="background: #aaa; border-spacing 0px; align: left;">
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-top: 1px solid #000; border-left: 1px solid #000; padding: 0px; border-spacing 0px;"><b>🗀 default.pack</b></td>
-    <td style="border-top: 1px solid #000; border-right: 1px solid #000; padding: 0px; border-spacing 0px;"></td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 manifest.json</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Pack metadata</td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 boot.ogg</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Boot sound</td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 ptc_navigation.ogg</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> UI navigation</td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 ptc_select.ogg</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> UI selection</td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 ptc_launch.ogg</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Game launch</td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;├── <b>🗋 ptc_ambiance.ogg</b> </td>
-    <td style="border-right: 1px solid #000; padding: 0px; border-spacing 0px;"> Ambiance track</td>
-  </tr>
-  <tr style="padding: 0px; border-spacing 0px;">
-    <td style="border-left: 1px solid #000; border-bottom: 1px solid #000; padding: 0px; border-spacing 0px;">&nbsp;└── <b>🗋 ptc_*.ogg</b> </td>
-    <td style="border-right: 1px solid #000; border-bottom: 1px solid #000; padding: 0px; border-spacing 0px;"> Other sounds </td>
-  </tr>
-</table>
+```text
+default.pack/
+├── manifest.json        # Pack metadata
+├── boot.ogg             # Boot sound
+├── ptc_navigation.ogg   # UI navigation
+├── ptc_select.ogg       # UI selection
+├── ptc_launch.ogg       # Game launch
+├── ptc_ambiance.ogg     # Ambiance track
+└── ptc_*.ogg            # Other sounds
+```
 
 ## Creating a Sound Pack
 
@@ -453,31 +350,38 @@ Required files:
 
 ### Player Colors
 
-<table">
-  <tr><th style="background: #afafaf; border-right: #fff 1px solid;">Player</th><th style="background: #afafaf; border-right: #fff 1px solid;">Color</th><th style="background: #afafaf;">Type</th></tr>
-  <tr><td>1</td><td style="background: #06c;">&nbsp;</td><td>Controller</td></tr>
-  <tr><td>2</td><td style="background: #c00;">&nbsp;</td><td>Controller</td></tr>
-  <tr><td>3</td><td style="background: #0c6;">&nbsp;</td><td>Controller</td></tr>
-  <tr><td>4</td><td style="background: #c6c;">&nbsp;</td><td>Controller</td></tr>
-  <tr><td>5</td><td style="background: #fc0;">&nbsp;</td><td>Accessory</td></tr>
-  <tr><td>6</td><td style="background: #f60;">&nbsp;</td><td>Accessory</td></tr>
-  <tr><td>7</td><td style="background: #f0f;">&nbsp;</td><td>Accessory</td></tr>
-  <tr><td>8</td><td style="background: #0ff;">&nbsp;</td><td>Accessory</td></tr>
-  <tr><td>Unassigned</td><td style="background: #eee;">&nbsp;</td><td>Waiting</td></tr>
-</table>
+| Player | Color | Type |
+| --- | --- | --- |
+| 1 | Blue | Controller |
+| 2 | Red | Controller |
+| 3 | Green | Controller |
+| 4 | Purple | Controller |
+| 5 | Yellow | Accessory |
+| 6 | Orange | Accessory |
+| 7 | Magenta | Accessory |
+| 8 | Cyan | Accessory |
+| Unassigned | Gray | Waiting |
 
 ## PIN Lock Screen
 
 ### PIN Mapping (DTMF Layout)
 
-<table>
-  <tr><th colspan="4">CONTROLLER BUTTON → NUMBER</th></tr>
-  <tr><td>←  = 1</td><td>↑  = 2</td><td>→  = 3</td><td>↓  = 4</td></tr>
-  <tr><td>RB = 5</td><td>RT = 6</td><td>LB = 7</td><td>LT = 8</td></tr>
-  <tr><td>Y  = 9</td><td>X  = 0</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-  <tr><td colspan="4">Options/Start = Forgot Passcode</td></tr>
-  <tr><td colspan="4">B/Circle = Clear (Backspace)</td></tr>
-</table>
+| Button | Number |
+| --- | --- |
+| ← | 1 |
+| ↑ | 2 |
+| → | 3 |
+| ↓ | 4 |
+| RB | 5 |
+| RT | 6 |
+| LB | 7 |
+| LT | 8 |
+| Y | 9 |
+| X | 0 |
+
+Options/Start = Forgot Passcode
+
+B/Circle = Clear (Backspace)
 
 ### Behavior
 
@@ -612,21 +516,20 @@ We welcome contributions! See [CONTRIBUTING.md](doc/CONTRIBUTING.md) for guideli
 
 ## Development Setup
 
-<div style="border: 1px solid #7f7f7f; color: #afafaf; background: #000;">
-    
-    # Clone the repository
-    git clone https://github.com/yourusername/prospero-tc.git
-    cd prospero-tc
-    
-    # Install dependencies<br>
-    npm install<br>
-    
-    # Build the project
-    npm run build
-    
-    # Run in development mode
-    npm run dev
-</div>
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/prospero-tc.git
+cd prospero-tc
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
+
+# Run in development mode
+npm run dev
+```
 
 ## Support
 
